@@ -35,5 +35,5 @@ function doMultiplication() {
 }
 
 addButton.addEventListener('click', doAddition);
-subtractButton.addEventListener('click', doAddition);
-multiplyButton.addEventListener('click', doAddition);
+subtractButton.addEventListener('click', doSubtraction);
+multiplyButton.addEventListener('click', doMultiplication);
